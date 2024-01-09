@@ -23,8 +23,8 @@
 
 #define PING_DATA_SIZE 64
 #define TIMESTAMP_MODE CLOCK_REALTIME_COARSE
-#define MAX_WAIT_TIME 5
-#define MAX_NO_PACKETS 3
+//#define MAX_WAIT_TIME 5
+//#define MAX_NO_PACKETS 3
 
 struct package {
     struct icmp header;
